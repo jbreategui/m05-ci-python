@@ -63,4 +63,3 @@ class TestPotencia:
 
     def test_potencia_cero(self):
         assert potencia(5, 0) == 1
-    
