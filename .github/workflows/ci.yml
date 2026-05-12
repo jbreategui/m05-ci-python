@@ -51,10 +51,10 @@ jobs:
 
       - name: Ejecutar flake8
         run: |
-          flake8 src/ tests/ \
-            --max-line-length=100 \
-            --exclude=__pycache__
-          echo "✅ Sin errores de estilo"
+                  flake8 src/ tests/ \
+                              --max-line-length=100 \
+                                          --exclude=__pycache__
+                                                    echo "✅ Sin errores de estilo"
 
   # ──────────────────────────────────────────────────────────────
   # JOB 2: test
