@@ -31,7 +31,7 @@ def dividir(a, b):
         raise ValueError("No se puede dividir entre cero")
     return a / b
 
+
 def potencia(base, exponente):
+    """Retorna base elevado a exponente."""
     return base ** exponente
-
-
